@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Drop me a line...</h1>
+    <form>
+        <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" size="30" placeholder="Your Name"/>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" size="30" placeholder="name@example.com"/>
+        </p>
+        <p>
+            <label for="tel">Tel.</label>
+            <input type="tel" name="tel" id="tel" size="30" placeholder="07xxxxxxxx"/>
+        </p>
+        <p>
+            <label for="mobile">Preffered means</label>
+            <input type="radio" name="contact" id="mobile"/>Tel.
+            <input type="radio" name="contact" id="mail"/>Email
+        </p>
+        <p>
+            <label for="product">Product</label>
+            <select name="product" id="product">
+                <option value="web">Web Application</option>
+                <option value="mobile">Mobile Application</option>
+                <option value="desktop">Desktop Application</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+        <p>
+            <label for="message">Message</label><br/>
+            <textarea name="message" id="message" rows="10" cols="30"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="offers" id="offers"/>
+            <label for="offers">Subscribe to News and Offers</label>
+        </p>
+        <p>
+            <input type="reset" value="cancel"/>
+            <input type="submit" value="Send Message"/>
+        </p>
+    </form>
+</body>
+</html>
